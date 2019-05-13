@@ -14,7 +14,7 @@ var prePower = _releaseSpeed
 _releaseSpeed *= _releaseDecel
 
 collision_launch(prePower)	
-PositionPaddleEnd()
+
 
 if(_releaseSpeed < _releaseSpeedMin){
 	

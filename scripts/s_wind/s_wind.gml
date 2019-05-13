@@ -8,7 +8,6 @@
 
 
 movePaddle()  
-PositionPaddleEnd()
 createOutline()
 
 if(o_inputController.btn_unwind){

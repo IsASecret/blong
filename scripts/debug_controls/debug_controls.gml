@@ -10,17 +10,3 @@ if(gamepad_button_check(0,gp_face4)){
 	}
 }
 
-
-
-
-_originMove = 0
-if(gamepad_button_check_pressed(0,gp_shoulderl)){
-	_originMove = -1	
-}
-
-if(gamepad_button_check_pressed(0,gp_shoulderr)){
-	_originMove = 1	
-}
-
-_originMove *= _originMoveSpeed
-

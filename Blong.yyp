@@ -511,14 +511,6 @@
             }
         },
         {
-            "Key": "c20182c6-1897-4858-a972-933e385499fc",
-            "Value": {
-                "id": "e3525edd-b1c1-4cd7-9d45-2168e02e6a42",
-                "resourcePath": "scripts\\PositionPaddleEnd\\PositionPaddleEnd.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "c3267a73-90fa-48fb-be8c-5e2a822cd1a7",
             "Value": {
                 "id": "a798d9e0-fe7e-43e5-8ffc-db16754d82ed",
@@ -772,7 +764,6 @@
         "fd2dad0c-71fe-4056-8fbe-59bf113e2a29",
         "86143322-a182-46c4-bb2d-5b52391f4a3d",
         "23e3f78c-ccb7-43d6-8f31-222e806d1b75",
-        "c20182c6-1897-4858-a972-933e385499fc",
         "91a5d4f5-e4ba-4104-b269-4dc848831fb9",
         "ab355931-a9da-4bcc-ae98-272c37239203",
         "cc77a958-a27f-4fe1-8221-eac1f4c7d26d",

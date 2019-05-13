@@ -19,7 +19,6 @@ if(place_meeting(self.x,self.y,o_ball)){					//If colliding with ball object
 		}
 		
 		o_player.image_angle +=1
-		PositionPaddleEnd()
 		sendBallValues(ball)								//Transfer paddle data to ball 
 	}
 }
