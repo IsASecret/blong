@@ -1,8 +1,8 @@
 {
-    "id": "509c8169-1ddf-423d-ac50-42278750b19a",
+    "id": "02c34942-8b8c-4722-9565-da93456474d5",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "incrementTo",
+    "name": "u_get_delta_time_millis",
     "IsCompatibility": false,
     "IsDnD": false
 }

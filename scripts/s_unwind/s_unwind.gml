@@ -4,8 +4,8 @@
 movePaddle()
 
 
-self.image_angle = fixAngle(self.image_angle)
-o_player.image_angle -= sign(image_angle) * get_delta_time() * o_player._resetSpeed
+self.image_angle = u_fixAngle(self.image_angle)
+o_player.image_angle -= sign(image_angle) * u_get_delta_time_millis() * o_player._resetSpeed
 
 if(o_player.image_angle <= 0){
 	

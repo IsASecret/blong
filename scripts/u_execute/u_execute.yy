@@ -1,8 +1,8 @@
 {
-    "id": "02c34942-8b8c-4722-9565-da93456474d5",
+    "id": "b4b51920-383e-4af5-9e2f-d9af142ca949",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "get_delta_time",
+    "name": "u_execute",
     "IsCompatibility": false,
     "IsDnD": false
 }

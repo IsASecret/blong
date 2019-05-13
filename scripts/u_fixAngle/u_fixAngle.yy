@@ -1,8 +1,8 @@
 {
-    "id": "c513607b-2034-4478-9a26-3449f8830903",
+    "id": "d46e06ca-fff7-47b0-846d-f66f1c8062ba",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "get_delta_time_seconds",
+    "name": "u_fixAngle",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -7,8 +7,8 @@ movePaddle()
 createGhost()
 
 
-o_player.image_angle -= (o_player._releaseAccel * o_player._releaseSpeed * get_delta_time())
-self.image_angle = fixAngle(self.image_angle)
+o_player.image_angle -= (o_player._releaseAccel * o_player._releaseSpeed * u_get_delta_time_millis())
+self.image_angle = u_fixAngle(self.image_angle)
 
 var prePower = _releaseSpeed
 _releaseSpeed *= _releaseDecel

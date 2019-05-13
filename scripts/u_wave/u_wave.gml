@@ -19,7 +19,7 @@
 //					At the start point (0, 2pi, 4pi, etc), value swings toward minimum
 //					The start value is arbitrary
 //
-//@example		wave(-5.2,14.5,false,false,1,1000) 
+//@example		u_wave(-5.2,14.5,false,false,1,1000) 
 //					Wave oscillates between -5.2 and 14.5, using a sine wave format (returns max or min at multiples pi)
 //					At the start point (0, 2pi, 4pi, etc), value is at maximum
 //					The start value is at maximum

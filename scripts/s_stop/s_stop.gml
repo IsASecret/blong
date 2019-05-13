@@ -1,6 +1,6 @@
 movePaddle()
 
-self.image_angle = fixAngle(self.image_angle)
+self.image_angle = u_fixAngle(self.image_angle)
 
 if(o_inputController.btn_wind){
 	

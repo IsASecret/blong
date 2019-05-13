@@ -34,7 +34,7 @@
             "Key": "02c34942-8b8c-4722-9565-da93456474d5",
             "Value": {
                 "id": "08c3fd04-5949-4677-ac5a-415e5bf31390",
-                "resourcePath": "scripts\\get_delta_time\\get_delta_time.yy",
+                "resourcePath": "scripts\\u_get_delta_time_millis\\u_get_delta_time_millis.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -186,7 +186,7 @@
             "Key": "509c8169-1ddf-423d-ac50-42278750b19a",
             "Value": {
                 "id": "82819fe6-788a-49f4-aa9c-021aab5fe90a",
-                "resourcePath": "scripts\\incrementTo\\incrementTo.yy",
+                "resourcePath": "scripts\\u_incrementTo\\u_incrementTo.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -498,7 +498,7 @@
             "Key": "b4b51920-383e-4af5-9e2f-d9af142ca949",
             "Value": {
                 "id": "1c98dd81-fa2a-45c3-830d-f7d1301d26da",
-                "resourcePath": "scripts\\execute\\execute.yy",
+                "resourcePath": "scripts\\u_execute\\u_execute.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -546,7 +546,7 @@
             "Key": "c513607b-2034-4478-9a26-3449f8830903",
             "Value": {
                 "id": "6a906a9b-a1b9-4416-858d-6a627d227c4f",
-                "resourcePath": "scripts\\get_delta_time_seconds\\get_delta_time_seconds.yy",
+                "resourcePath": "scripts\\u_get_delta_time_seconds\\u_get_delta_time_seconds.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -594,7 +594,7 @@
             "Key": "d46e06ca-fff7-47b0-846d-f66f1c8062ba",
             "Value": {
                 "id": "b8160a3c-5652-4124-b480-a45df57f01ac",
-                "resourcePath": "scripts\\fixAngle\\fixAngle.yy",
+                "resourcePath": "scripts\\u_fixAngle\\u_fixAngle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -794,7 +794,7 @@
             "Key": "febf825a-fc73-4b9b-adfa-6b9660b17df6",
             "Value": {
                 "id": "fcbf1c19-52b5-4811-af0c-1b79963f9a77",
-                "resourcePath": "scripts\\wave\\wave.yy",
+                "resourcePath": "scripts\\u_wave\\u_wave.yy",
                 "resourceType": "GMScript"
             }
         }
@@ -826,7 +826,6 @@
         "9afa6c4c-4c6f-47dd-8c41-24f467cbb032",
         "e0d0de2f-4e90-4774-aca1-1148c6c21111",
         "54b35ee3-d343-4aca-b99e-3950272745ba",
-        "9d4c447f-83cf-4c23-b34e-ebca0abe3027",
         "02c34942-8b8c-4722-9565-da93456474d5",
         "509c8169-1ddf-423d-ac50-42278750b19a",
         "d46e06ca-fff7-47b0-846d-f66f1c8062ba",
@@ -835,6 +834,7 @@
         "c513607b-2034-4478-9a26-3449f8830903",
         "cd4587b2-27a1-4175-9b7e-fb5965ac5e1b",
         "e2ed6982-3e82-4b8d-9540-c4ea06b253f7",
+        "9d4c447f-83cf-4c23-b34e-ebca0abe3027",
         "22af5916-e6b5-4a0f-99f8-1c340b721801"
     ],
     "tutorial": ""

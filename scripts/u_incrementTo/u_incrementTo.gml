@@ -5,7 +5,7 @@
 //@param num	_seconds		->	seconds taken to reach final value
 
 //@example		- given: val = 4
-//			 	- incrementTo(val,100,3.4)
+//			 	- u_incrementTo(val,100,3.4)
 //				- Variable val will increment to 100 over 3.4 seconds
 
 _valToAdjust = argument0
@@ -17,7 +17,7 @@ if(_valToAdjust == _toValue){
 
 } else {
 
-	_valToAdjust += get_delta_time_seconds() / _seconds * (_toValue - _fromValue)
+	_valToAdjust += u_get_delta_time_seconds() / _seconds * (_toValue - _fromValue)
 	
 	if(_fromValue > _toValue){
 		
