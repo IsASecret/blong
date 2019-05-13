@@ -1,0 +1,1 @@
+return block_state.normal
