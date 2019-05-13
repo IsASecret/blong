@@ -1,6 +1,6 @@
 global.GAMEPAD_CONNECTIONS[20] = false; //Connection Status for gamepads
 
-global.GAMEPAD_BUTTONS[13] = 0;
+global.GAMEPAD_BUTTONS[15] = 0;
 
 global.GAMEPAD_BUTTONS[0]			= gp_face1
 global.GAMEPAD_BUTTONS[1]			= gp_face2
@@ -16,6 +16,8 @@ global.GAMEPAD_BUTTONS[10]			= gp_padr
 global.GAMEPAD_BUTTONS[11]			= gp_padl
 global.GAMEPAD_BUTTONS[12]			= gp_stickl
 global.GAMEPAD_BUTTONS[13]			= gp_stickr
+global.GAMEPAD_BUTTONS[14]			= gp_shoulderlb
+global.GAMEPAD_BUTTONS[15]			= gp_shoulderrb
 
 
 
@@ -29,8 +31,8 @@ global.GAMEPAD_AXES[4]				= gp_shoulderrb
 global.GAMEPAD_AXES[5]				= gp_shoulderlb
 
 
-global.GAMEPAD_VALUES_BUTTONS[14] = 0; // Button/Axis values from gamepad
-global.GAMEPAD_VALUES_BUTTONS_PRESSED[14] = 0;
-global.GAMEPAD_VALUES_BUTTONS_RELEASED[14] = 0;
+global.GAMEPAD_VALUES_BUTTONS[15] = 0; // Button/Axis values from gamepad
+global.GAMEPAD_VALUES_BUTTONS_PRESSED[15] = 0;
+global.GAMEPAD_VALUES_BUTTONS_RELEASED[15] = 0;
 global.GAMEPAD_VALUES_AXES[6] = 0;
 

@@ -50,7 +50,9 @@ enum gamepad {
 	button_right,
 	button_left,
 	button_stickl,
-	button_stickr
+	button_stickr,
+	button_triggerL,
+	button_triggerR
 }
 
 enum axes {
@@ -70,4 +72,5 @@ btn_wind_release = 0
 btn_unwind = 0
 axis_x= 0
 axis_y=0
-
+btn_rotateR = 0;
+btn_rotateL = 0;

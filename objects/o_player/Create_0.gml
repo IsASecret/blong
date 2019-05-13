@@ -7,13 +7,11 @@ _releaseSpeed = 0			// Stores the current power during release state
 _releaseSpeedMin = 0.01
 
 _windAngleMax = 135
-_releaseDecel = 0.97
-_releaseAccel = 1.9
+_releaseDecel = 0.94
+_releaseAccel = 3.5
 
-_resetSpeed = 0.35
-
-_originMin = 5
-_originMax = 59
+_resetSpeed = 0.67
+_rotateSpeed = 90
 
 enum p_state {
 	stopped,

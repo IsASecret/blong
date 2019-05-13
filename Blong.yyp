@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "b88106ac-7bdb-445b-90b3-268de2de1a52",
+            "Value": {
+                "id": "cacca632-a93b-45c0-a13b-61e448cb4ba9",
+                "resourcePath": "scripts\\rotatePaddle\\rotatePaddle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b8f7e705-f095-4cfe-8aac-c3ff5c8c043a",
             "Value": {
                 "id": "58c35dbf-5800-4bed-8350-3720ae78fa91",
@@ -812,6 +820,7 @@
         "7595a614-84ba-4ae8-9463-9c40158b9873",
         "c3267a73-90fa-48fb-be8c-5e2a822cd1a7",
         "82531819-2cd9-443a-88a1-7b2029940f91",
+        "b88106ac-7bdb-445b-90b3-268de2de1a52",
         "bf936bfd-2214-410d-84c7-59a886c61a70",
         "45428b1b-85cd-4537-979f-b607813928f9",
         "7dff8fbc-c1cf-46a9-95ba-5ee12cf1b08e",

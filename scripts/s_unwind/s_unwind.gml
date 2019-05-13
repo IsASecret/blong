@@ -10,7 +10,12 @@ o_player.image_angle -= sign(image_angle) * u_get_delta_time_millis() * o_player
 if(o_player.image_angle <= 0){
 	
 	o_player.image_angle = 0	
-	return p_state.stopped
+	
+	if(instance_exists(o_ball)){
+		if(o_ball.state == b_state.flying) { return p_state.deflecting }
+		
+	}
+	return p_state.stopped	
 }
 
 return p_state.unwinding

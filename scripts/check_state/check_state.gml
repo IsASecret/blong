@@ -33,7 +33,7 @@ switch(o_player.state){
 		break;
 		
 	case p_state.deflecting:
-		
+	
 		dM("check_state: p_state.deflecting",global.DEBUG_STATE)
 		o_player.state = s_deflect()
 		
