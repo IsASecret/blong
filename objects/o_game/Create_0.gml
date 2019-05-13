@@ -1,7 +1,6 @@
 show_debug_message("game");
 
-instance_create_layer(0,0,"Game",o_inputGlobals)	
-instance_create_layer(0,0,"Game",o_inputController)
+u_initUtilities()
 
 _startTime = current_time
 _slowMo = false

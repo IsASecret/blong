@@ -19,7 +19,8 @@ enum p_state {
 	stopped,
 	winding,
 	unwinding,
-	releasing
+	releasing,
+	deflecting
 }
 
 state = p_state.stopped

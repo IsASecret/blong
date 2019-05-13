@@ -9,7 +9,7 @@ switch(state){
 		break;
 		
 	case block_state.hit:
-		dM("check_state_brick: hit",true)
+	
 		id._state = s_hit()
 	
 		break;
