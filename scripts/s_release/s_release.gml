@@ -3,7 +3,6 @@
 //
 
 movePaddle()
-
 createGhost()
 
 
@@ -18,10 +17,12 @@ collision_launch(prePower)
 
 if(_releaseSpeed < _releaseSpeedMin){
 	
+	prevState = p_state.releasing
 	return p_state.unwinding
 }
 
 else{
 	
+	prevState = p_state.releasing
 	return p_state.releasing	
 }

@@ -14,6 +14,7 @@ if(o_inputController.btn_unwind){
 	
 	if(o_inputController.btn_wind_release){
 		
+		prevState = p_state.winding
 		return p_state.unwinding
 	}
 	
@@ -22,6 +23,7 @@ if(o_inputController.btn_unwind){
 if(!o_inputController.btn_wind){
 	
 	o_player._releaseSpeed = (o_player.image_angle / _windAngleMax)
+	prevState = p_state.winding
 	return p_state.releasing
 }
 
@@ -31,6 +33,7 @@ else{
 	if(o_player.image_angle > o_player._windAngleMax){
 		o_player.image_angle = o_player._windAngleMax
 	}
+	prevState = p_state.winding
 	return p_state.winding
 }
 

@@ -2,12 +2,12 @@ movePaddle()
 rotatePaddle()
 
 if(instance_exists(o_ball)){
-	dM("s_deflect: ball exists",true)
 	
+	prevState = p_state.deflecting
 	return p_state.deflecting
 }
 
-
+prevState = p_state.deflecting
 return p_state.unwinding	
 
 

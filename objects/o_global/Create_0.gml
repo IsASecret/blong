@@ -1,1 +1,1 @@
-global.no_parent = -100
+global.no_parent = 0

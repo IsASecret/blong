@@ -13,6 +13,12 @@ _releaseAccel = 3.5
 _resetSpeed = 0.67
 _rotateSpeed = 90
 
+_deflectOffsetX = 32
+_deflectOffsetY = 32
+
+_launchOffsetX = 59
+_launchOffsetY = 32
+
 enum p_state {
 	stopped,
 	winding,
@@ -21,4 +27,5 @@ enum p_state {
 	deflecting
 }
 
+prevState = p_state.stopped
 state = p_state.stopped

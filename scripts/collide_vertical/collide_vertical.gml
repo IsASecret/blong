@@ -3,7 +3,7 @@ _y = argument0
 if(place_meeting(x,y+_y,o_masterCollidable)){
 	
 	_instance = instance_place(x,y+_y,o_masterCollidable)	
-	
+
 	switch(object_get_parent(_instance.object_index)){
 		
 		case o_collidable :
@@ -25,7 +25,7 @@ if(place_meeting(x,y+_y,o_masterCollidable)){
 			switch(_instance.object_index){
 					
 				case o_player:
-						
+						dM("collide_vert: no parent",true)
 				break;
 				
 				default:
